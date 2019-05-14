@@ -13,6 +13,7 @@
 #include<unordered_map>
 #include<tuple>
 #include <random>
+#include <algorithm>
 
 using namespace std;
 
