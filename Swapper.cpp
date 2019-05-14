@@ -78,7 +78,7 @@ int main(int argc, char** argv)
         exit(1);
     }
     string inputFileName = argv[1];     // memory.dat
-    string input_file_path = "../InputFiles/" + inputFileName;        // argv[1] = Input file name
+    string input_file_path = inputFileName;        // argv[1] = Input file name
     cout << "Output of LRU::" << endl;
     algorithm = "LRU";
     RunSwapper(input_file_path);
